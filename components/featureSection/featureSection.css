@@ -1,0 +1,114 @@
+.feature-section{
+    background-color: var(--bg2);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-section-contents{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1171px;
+    position: relative;
+}
+.feature-section-left{
+    margin: 60px;
+}
+.feature-section-photo{
+    border-radius: 45% 55% 34% 66% / 61% 62% 38% 39%;
+    background-color: #F5E1FC;
+    height: 450px;
+    width: 481px;
+    position: relative;
+    margin: 14px;
+}
+.feature-section-img{
+    position: absolute;
+    top: -25px;
+    right: -80px;
+    margin: 14px;
+
+}
+.feature-section-right{
+
+}
+.feature-section-texts{
+
+}
+.feature-section-heading{
+    font-weight: 500;
+    font-size: 36px;
+    line-height:42px;
+    color: #151875;
+    margin-bottom: 26px;
+}
+.feature-list{
+    list-style-type: none;
+}
+.feature-list-item{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 132%;
+    color: #ACABC3;
+    margin-top: 13px;
+}
+.feature-list-item:before {
+    content:"·";
+    font-size:100px;
+    vertical-align:middle;
+    line-height:20px;
+}
+.feature-list-item-a:before {
+    color: rgba(245, 43, 112, 1);
+}
+.feature-list-item-b:before {
+    color: rgba(43, 43, 245, 1);
+}
+.feature-list-item-c:before {
+    color: rgba(43, 245, 204, 1);
+}
+
+.feature-section-cta-btn {
+    color: white;
+    background-color: var(--accentP);
+    width: 163px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.feature-section-cta-btn:hover {
+    color: var(--accentP);
+    border: 2px solid var(--accentP);
+    background-color: rgba(255, 255, 255, 0.984);
+    cursor: pointer;
+}
+
+
+
+.feature-section-action{
+    margin-top: 38px;
+}
+.feature-section-cta{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.feature-section-product{
+    margin-left: 20px;
+}
+.feature-section-product-name, .feature-section-product-price{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    color: #151875;
+}
+.feature-section-product-name{
+    margin-bottom: 8px;
+}
