@@ -30,6 +30,7 @@
     line-height: 19px;
     color: #8A8FB9;
     margin-bottom: 21px;
+    cursor: pointer;
   }
   
   .footer-signup{
@@ -60,6 +61,7 @@
     color: white;
     height: 44px;
     width: 102px;
+    cursor: pointer;
 }
 
 .footer-contact-heading{
